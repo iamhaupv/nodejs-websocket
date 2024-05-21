@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/longsoisuaxe1a/nodejs-websocket'
+                git branch: 'main', url: 'https://github.com/longsoisuaxe1a/nodejs-websocket'
             }
         }
     }
