@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-websocket",
+  "version": "1.0.0",
+  "description": "demo websocket",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phamvanhau",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}
